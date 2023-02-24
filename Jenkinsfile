@@ -21,7 +21,7 @@ pipeline {
         '''
       }
       post {
-        success {
+        always {
           archiveArtifacts(artifacts: 'homepage-*.png', followSymlinks: false)
           sh 'rm -rf *.png'
         }
