@@ -23,6 +23,7 @@ pipeline {
       post {
         always {
           archiveArtifacts(artifacts: 'homepage.png', followSymlinks: false)
+          archiveArtifacts(artifacts: 'results.json')
           sh 'rm -rf *.png'
         }
       }
