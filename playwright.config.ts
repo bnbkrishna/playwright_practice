@@ -29,9 +29,8 @@ const config: PlaywrightTestConfig = {
   workers: process.env.CI ? 1 : undefined,
 
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: ['html'],
-      ['line'],
-      ['json', { outputFile: 'results.json' }]
+  reporter:[['line'],
+      ['json', { outputFile: 'results.json' }],['html'],
   ],
 
 
