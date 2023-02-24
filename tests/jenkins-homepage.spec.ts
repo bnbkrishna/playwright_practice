@@ -6,5 +6,5 @@ test('Jenkins Homepage', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Jenkins/);
 
-  await page.screenshot({ path: 'homepage-'.png', fullPage: true });
+  await page.screenshot({ path: 'homepage.png', fullPage: true });
 });
