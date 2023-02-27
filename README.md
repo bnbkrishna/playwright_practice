@@ -2,4 +2,6 @@
 
 ## Documentation updated
 
-* https://playwright.dev/docs/docker
+* https://playwright.dev/docs/ci
+## npm install
+## npx playwright test
