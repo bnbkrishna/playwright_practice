@@ -1,5 +1,5 @@
 # jenkins-example-playwright
 
-## Documentation
+## Documentation updated
 
 * https://playwright.dev/docs/docker
